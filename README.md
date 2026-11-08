@@ -1,10 +1,10 @@
 # Agentlings
 
-**Stop tab hunting. See every Claude session as a little pixel creature.**
+**Stop tab hunting. A Mac menu bar app that shows every Claude Code session as a little pixel creature.**
 
-If you run a lot of Claude sessions, you know the routine: click through tabs to find the one that's waiting on you. Agentlings ends that. Every session becomes a pixel creature, grouped the same way as your Claude sidebar. Working ones get busy, ones that need you wave, finished ones celebrate until you look, and forgotten ones fall asleep. Each group gets its own creature and its own little world: a beaver on a riverbank for projects, a robot in a control room for tools. Everything is drawn in code, so you can ask Claude to make a creature and a background for any group you like.
+If you run a lot of Claude Code sessions in the Claude desktop app, you know the routine: click through tabs to find the one that's waiting on you. Agentlings ends that. Every session becomes a pixel creature, grouped the same way as your Claude sidebar, so you can see at a glance which sessions are working, which need your input and which have finished. Working ones get busy, ones that need you wave, finished ones celebrate until you look, and forgotten ones fall asleep. Each group gets its own creature and its own little world: a beaver on a riverbank for projects, a robot in a control room for tools. Everything is drawn in code, so you can ask Claude to make a creature and a background for any group you like.
 
-![Agentlings showing hubs of pixel creatures](docs/demo.gif)
+![Agentlings: Claude Code sessions shown as pixel creatures in hubs, some working, one asking a question, some asleep](docs/demo.gif)
 
 Agentlings is an unofficial side project. It is not made by, or affiliated with, Anthropic.
 
