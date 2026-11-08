@@ -1,0 +1,9 @@
+{
+  "music": {"species": "noteling", "colour": "#7F77DD", "scene": "stage"},
+  "claude": {"species": "octopus", "colour": "#E0793F", "scene": "sea"},
+  "life admin": {"species": "snail", "colour": "#D85A30", "scene": "garden"},
+  "work": {"species": "mug", "colour": "#4F9BD9", "scene": "office"},
+  "design": {"species": "palette", "colour": "#D9A066", "scene": "studio"},
+  "workspace": {"species": "bot", "colour": "#56B4A0", "scene": "control"},
+  "projects": {"species": "beaver", "colour": "#A0683F", "scene": "riverbank"}
+}

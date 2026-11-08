@@ -1,0 +1,28 @@
+{
+  "name": "agentlings",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "predev": "node tools/ensure-species.mjs",
+    "build:ui": "vite build",
+    "prebuild:ui": "node tools/ensure-species.mjs",
+    "test:ui": "node --test src/lib/",
+    "pretest:ui": "node tools/ensure-species.mjs",
+    "start": "vite build && cargo run -p agentlings",
+    "prestart": "node tools/ensure-species.mjs",
+    "bundle": "tauri build --bundles app",
+    "prebundle": "node tools/ensure-species.mjs",
+    "demo": "AGENTLINGS_DEMO=1 \"target/release/bundle/macos/Agentlings.app/Contents/MacOS/agentlings\""
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^7.3.1",
+    "@tauri-apps/cli": "^2.12.4",
+    "svelte": "^5.57.3",
+    "vite": "^8.3.6"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2.12.4"
+  }
+}
